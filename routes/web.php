@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return 'telo';
+Route::get('/', function(){
+    echo 'ini root';
 });
 
-Route::get('/about', function () {
-    return "hieleh kentel";
-});
+Route::get('/about', 'AboutController@index');
 
 Route::get('hi', function () {
     return 'hiii telooo bosok';
