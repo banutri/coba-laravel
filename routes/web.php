@@ -22,5 +22,5 @@ Route::get('/about', function () {
 });
 
 Route::get('hi', function () {
-    return 'hiii telooo';
+    return 'hiii telooo bosok';
 });
